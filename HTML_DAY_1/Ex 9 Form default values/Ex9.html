@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form with default value</title>
+  </head>
+  <body>
+    <form name="enrollmentForm" action="#" method="post">
+      <table border="1" width="600" cellspacing="5" cellpadding="5">
+        <th colspan="2"><h1>Enrollment Form</h1></th>
+
+        <tr>
+          <td>First Name</td>
+          <td><input type="text" name="firstName" id="firstName" value="Priya" /></td>
+        </tr>
+
+        <tr>
+          <td>Last Name</td>
+          <td><input type="text" name="lastname" id="lastName" value="Balaji" /></td>
+        </tr>
+
+        <tr>
+          <td>Email</td>
+          <td><input type="email" name="email" id="email" value="ksp@gmail.com" /></td>
+        </tr>
+
+        <tr>
+          <td>Password</td>
+          <td><input type="password" name="email" id="email" /></td>
+        </tr>
+
+        <tr>
+          <td>DOB</td>
+          <td><input type="date" name="dob" id="dob" value="1994-12-22"/></td>
+        </tr>
+
+        <tr>
+          <td>Upload</td>
+          <td><input type="file" name="upload" id="upload" /></td>
+        </tr>
+
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" name="gender" id="male" value="male" />Male
+            <input type="radio" name="gender" id="female" value="female" checked/>Female
+            <input type="radio" name="gender" id="other" value="other" />Other
+          </td>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>Hobbies:</td>
+          <td>
+            <input type="checkbox" name="music" id="music" value="music" checked>Music
+            <input type="checkbox" name="sports" id="sports" value="sports">Sports
+            <input type="checkbox" name="reading" id="reading" value="reading">Reading
+            <input type="checkbox" name="movies" id="movies" value="movies">Movies
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Country:</td>
+          <td>
+            <select name="country" id="country">
+              <option value="usa" >USA</option>
+              <option value="india" selected>India</option>
+              <option value="uk">UK</option>
+              <option value="canada">Canada</option>
+              <option value="aus">Australia</option>      
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Comments:</td>
+          <td>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <input type="submit" name="submit" value="Register">
+            <input type="reset" name="reset" value="Reset">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

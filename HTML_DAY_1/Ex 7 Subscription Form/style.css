@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-size: large;
+}
+h2{
+    background-color:red;
+    margin-top: 4px;
+    font-size: 25x;
+    text-align:center ;
+}
+input{
+    border-style:hidden hidden solid hidden;
+    border-color: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-weight: bold;
+}
+#table2{
+    max-width:"90%";
+}
+#address{
+    width:95%
+}
+#addr{
+    width:85%
+}
+#box{
+    width:30%; 
+    padding:15px;
+    background-color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#border{
+    border:2px solid black;
+    padding-left: 4px; 
+    padding-right: 4px;
+}
+#fname,#lname{
+    width:90%;
+    margin-right: 10px;
+}

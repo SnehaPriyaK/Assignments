@@ -1,0 +1,69 @@
+<!--
+    Question : Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+-->
+
+<!-- Solution: -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SubscriptionForm</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >    
+        <div id="box">
+            <div id="border">
+                <h2>Yes! I want to subscribe to Mag-O-Zine</h2>
+                <table width=100%>
+                    <tr>
+                        <td>
+                            <input type="text" name="fname" id="fname" />   
+                        </td>
+                        <td>    
+                            <input type="text" name="lname" id="lname" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >First Name</td>
+                        <td >Last Name</td>
+                    </tr>
+                </table>
+            
+                <input type="text" name="address" id="address"/>                        
+                <label>Address</label>
+
+                <table id="table2">
+                        <tr>
+                            <td>
+                                <input type="text" name="city" id="addr"/>                        
+                            </td>
+                            <td>
+                                <input type="text" name="state" id="addr"/>
+                            </td>
+                            <td>
+                                <input type="text" name="zip" id="addr"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>City</td>
+                            <td>State</td>
+                            <td>Zip</td>
+                        </tr>
+                </table >
+                
+                <p>Subscribe for:
+                    <input type="checkbox" name="1yr" id="1yr"/>1 year ($19.95) 
+                    <input type="checkbox" name="2yr" id="2yr"/>2 year ($35.00)<br/>
+                    Send me more information about:<br/>
+                    <input type="checkbox" name="1yr" id="1yr"/>Computer-Zine<br>
+                    <input type="checkbox" name="2yr" id="2yr"/>Fishing-Zine<br>
+                    <input type="checkbox" name="3yr" id="3yr"/>Cat-O-Zine<br>
+                </p>
+                    
+            </div>
+        </div>
+    </body>
+</html>
