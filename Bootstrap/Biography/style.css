@@ -1,0 +1,114 @@
+body{
+    background-color:lightgray;
+}
+
+.container{
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-left: 2px solid darkgrey; 
+    border-right: 2px solid darkgrey;   
+}
+
+.header{
+    padding:50px; 
+    background-color: black;   
+    color:white;
+    text-align: center;
+}
+
+h1,h3,h6{
+    padding:5px;
+    font-weight: bold;
+}
+
+#content{
+    background-color: white;
+}
+
+.content2{
+    color:white;
+    text-align:center;
+}
+
+img{
+    width:300px;
+    height:450px;
+    margin:0px;
+}
+
+.books{
+    background-color:orange;
+}
+
+.btn{
+    padding-right: 25px;
+    margin-right: 5px;
+    margin-top: 50px;
+}
+
+#icons{
+    margin-left:10px ;
+    margin-right:10px ;
+}
+
+h2 {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+h2:before,
+h2:after {
+    background-color: lightgray;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.cols{
+    border:2px solid lightgray;
+    margin:10px;
+    padding:10px;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.year{
+    color:gray;
+    margin-bottom: 5px;
+}
+
+.description{
+    margin-bottom: 0px;
+}
+
+#list{
+    margin-top: 20%;
+}
+
+.light{
+    color:gray;
+}
+
+.content3{
+    color:white;
+    text-align: left;
+}
