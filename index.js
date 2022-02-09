@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 const timestamp = new Date().toString();
 
 fs.writeFileSync('date-time.txt',timestamp);
