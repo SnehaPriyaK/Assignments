@@ -1,11 +1,3 @@
-const os=require('os');
-//console.log(os.cpus());
-//console.log(os.homedir());
-//console.log(os.hostname());
-//console.log(os.platform());
-//console.log(os.tmpdir());
-//console.log(os.uptime());
-
 const http = require('http');
 const fs = require('fs');
 const PORT = 8000;
