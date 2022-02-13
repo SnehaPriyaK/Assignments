@@ -70,7 +70,6 @@ function App() {
         <div className="row">
         {
           data.map((item) =>{
-            {console.log("item",item.product)}
             return <PriceCard  data={item}/>
           })
         }
