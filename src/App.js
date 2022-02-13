@@ -20,7 +20,7 @@ function App() {
       phoneSupportEnabler:false,
       subDomain:"Free Subdomain",
       subDomainEnabler:false,
-      c:"Monthly Status Reports",
+      reports:"Monthly Status Reports",
       reportsEnabler:false
     },
     {
