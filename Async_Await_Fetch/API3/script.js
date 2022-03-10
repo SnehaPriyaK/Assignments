@@ -4,7 +4,7 @@ let result=document.querySelector('.db');
 //funtion to get the data
 async function getData(){
     try{
-        const res=await fetch('http://api.icndb.com/jokes/random/20')
+        const res=await fetch('https://api.icndb.com/jokes/random/20')
         let jsonResult=await res.json();
         
         jsonResult=jsonResult.value;
