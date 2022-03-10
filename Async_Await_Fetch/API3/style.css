@@ -1,0 +1,15 @@
+th,td{
+  border:1px solid gray;
+  padding: 15px;
+}
+th{
+  text-align: center;
+}
+section{
+    margin-top: 20px;
+    text-align: center;
+}
+
+body{
+  background: rgb(112, 231, 225);
+}
